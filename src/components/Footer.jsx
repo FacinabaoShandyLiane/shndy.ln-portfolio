@@ -15,8 +15,9 @@ function Footer() {
           </h2>
 
           <p className="text-[#5C5470] leading-relaxed">
-            Frontend developer passionate about creating aesthetic, responsive,
-            and interactive websites.
+            An Information Technology graduate passionate about front-end
+            development, quality assurance, UI/UX design, and creating
+            user-centered digital experiences.
           </p>
         </div>
 
@@ -70,7 +71,7 @@ function Footer() {
               href="https://github.com/FacinabaoShandyLiane"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#6E4C8F] text-2xl hover:text-[#B57EDC] hover:-translate-y-1 transition duration-300"
+              className="text-[#6E4C8F] text-2xl hover:text-[#B57EDC] hover:scale-110 hover:-translate-y-1 transition duration-300"
             >
               <FaGithub />
             </a>
@@ -81,7 +82,7 @@ function Footer() {
               href="https://www.facebook.com/ShandyLiane"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#6E4C8F] text-2xl hover:text-[#B57EDC] hover:-translate-y-1 transition duration-300"
+              className="text-[#6E4C8F] text-2xl hover:text-[#B57EDC] hover:scale-110 hover:-translate-y-1 transition duration-300"
             >
               <FaFacebookF />
             </a>
@@ -92,7 +93,7 @@ function Footer() {
               href="https://www.instagram.com/shnd._.ln?igsh=MTAwcWc1NDh0d244NQ=="
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#6E4C8F] text-2xl hover:text-[#B57EDC] hover:-translate-y-1 transition duration-300"
+              className="text-[#6E4C8F] text-2xl hover:text-[#B57EDC] hover:scale-110 hover:-translate-y-1 transition duration-300"
             >
               <FaInstagram />
             </a>
@@ -103,7 +104,7 @@ function Footer() {
               href="https://mail.google.com/mail/?view=cm&fs=1&to=slfacinabao@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#6E4C8F] text-2xl hover:text-[#B57EDC] hover:-translate-y-1 transition duration-300"
+              className="text-[#6E4C8F] text-2xl hover:text-[#B57EDC] hover:scale-110 hover:-translate-y-1 transition duration-300"
             >
               <MdEmail />
             </a>

@@ -3,35 +3,67 @@ import profile from "../assets/profile.png";
 function About() {
   const cards = [
     {
-      title: "Frontend Development",
+      title: "Web Development",
       description:
-        "Building responsive and interactive web applications using React, Vite, Tailwind CSS, JavaScript, and Flutter.",
+        "Develop responsive, user-friendly web applications using modern technologies while focusing on performance, accessibility, and intuitive user experiences.",
     },
     {
-      title: "UI/UX Design",
+      title: "Quality Assurance & Documentation",
       description:
-        "Designing intuitive interfaces and interactive prototypes focused on usability, accessibility, and visual consistency.",
+        "Conduct usability testing, document system issues, prepare reports, and collaborate with teams to improve software quality and user satisfaction.",
     },
     {
-      title: "Project Experience",
+      title: "Administrative & Technical Support",
       description:
-        "Developed real-world academic and organizational systems including MarisTrack and MaristaPay during internship experience.",
+        "Organize project documentation, manage digital files, perform data entry, and support efficient workflows with strong attention to detail.",
     },
   ];
 
-  const technologies = [
-    "React",
-    "Vite",
-    "Tailwind CSS",
-    "JavaScript",
-    "Flutter",
-    "Dart",
-    "Figma",
-    "Canva",
-    "Draw.io",
-    "Git",
-    "GitHub",
-    "Firebase",
+  const skillCategories = [
+    {
+      title: "Administrative Skills",
+      icon: "📋",
+      skills: [
+        "Documentation",
+        "Data Entry",
+        "Internet Research",
+        "File Management",
+        "Microsoft Office",
+        "Google Workspace",
+      ],
+    },
+    {
+      title: "Quality Assurance",
+      icon: "🧪",
+      skills: [
+        "Usability Testing",
+        "Bug Reporting",
+        "Test Case Execution",
+        "System Documentation",
+      ],
+    },
+    {
+      title: "Development",
+      icon: "💻",
+      skills: ["HTML", "CSS", "JavaScript", "React", "Flutter", "Firebase"],
+    },
+    {
+      title: "Design",
+      icon: "🎨",
+      skills: ["Figma", "Canva", "UI/UX Design", "Wireframing", "Prototyping"],
+    },
+    {
+      title: "Professional Skills",
+      icon: "🤝",
+      skills: [
+        "Communication",
+        "Organization",
+        "Attention to Detail",
+        "Problem Solving",
+        "Teamwork",
+        "Adaptability",
+      ],
+    },
   ];
 
   return (
@@ -72,25 +104,31 @@ function About() {
           {/* Introduction */}
           <div className="order-2 lg:order-2">
             <h3 className="text-3xl md:text-4xl font-bold text-[#6E4C8F] mb-6">
-              Passionate About Creating Meaningful Digital Experiences
+              Turning Ideas into Organized, User-Centered Solutions
             </h3>
 
             <p className="text-[#5C5470] text-lg leading-relaxed">
-              I am a fresh graduate with a passion for frontend development and
-              UI/UX design. I enjoy creating aesthetic, interactive, and
-              user-friendly digital experiences that combine creativity with
-              functionality.
+              I am an Information Technology graduate with experience in
+              front-end development, quality assurance testing, and
+              documentation gained through academic projects and my internship.
+              I enjoy building digital solutions that are both functional and
+              easy to use while maintaining attention to detail.
             </p>
 
             <p className="text-[#5C5470] text-lg leading-relaxed mt-6">
-              Through academic projects, design work, and internship experience,
-              I have developed skills in building modern web applications and
-              intuitive interfaces that solve real-world problems.
+              During my internship, I collaborated with teams to test web-based
+              systems, document system improvements, assist in UI/UX design, and
+              support the development of user-friendly applications. These
+              experiences strengthened my communication, organization, and
+              problem-solving skills.
             </p>
 
             <p className="text-[#5C5470] text-lg leading-relaxed mt-6">
-              My goal is to create digital solutions that are not only visually
-              appealing but also meaningful, accessible, and user-centered.
+              I am passionate about continuous learning and enjoy combining
+              technical knowledge with creativity and organization. Whether
+              contributing to software development, quality assurance, or
+              administrative support, I strive to deliver reliable work and
+              meaningful results.
             </p>
           </div>
         </div>
@@ -125,31 +163,141 @@ function About() {
           ))}
         </div>
 
-        {/* Tools */}
+        {/* Skills & Tools */}
         <div className="mb-24">
-          <h3 className="text-3xl font-bold text-center text-[#2E1F3E] mb-10">
-            Tools & Technologies
-          </h3>
+          <div className="text-center mb-16">
+            <h3 className="text-4xl md:text-5xl font-bold text-[#2E1F3E]">
+              Skills & Expertise
+            </h3>
 
-          <div className="flex flex-wrap justify-center gap-4 max-w-5xl mx-auto">
-            {technologies.map((tool) => (
-              <span
-                key={tool}
-                className="
-                  px-5
-                  py-3
-                  rounded-full
-                  bg-[#EADCF8]
-                  text-[#6E4C8F]
-                  font-medium
-                  hover:scale-105
-                  transition
-                  duration-300
-                "
-              >
-                {tool}
-              </span>
-            ))}
+            <p className="text-[#5C5470] mt-4 max-w-3xl mx-auto text-lg">
+              My skills combine technical development, quality assurance,
+              administrative support, and creative design, strengthened through
+              academic projects and hands-on internship experience.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Administrative */}
+            <div>
+              <h4 className="text-2xl font-semibold text-[#6E4C8F] mb-5">
+                📋 Administrative Skills
+              </h4>
+
+              <div className="flex flex-wrap gap-3">
+                {[
+                  "Documentation",
+                  "Data Entry",
+                  "Internet Research",
+                  "File Management",
+                  "Microsoft Office",
+                  "Google Workspace",
+                ].map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-4 py-2 rounded-full bg-[#EADCF8] text-[#6E4C8F] font-medium"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+            {/* Quality Assurance */}
+            <div>
+              <h4 className="text-2xl font-semibold text-[#6E4C8F] mb-5">
+                🧪 Quality Assurance
+              </h4>
+
+              <div className="flex flex-wrap gap-3">
+                {[
+                  "Usability Testing",
+                  "Bug Reporting",
+                  "Test Case Execution",
+                  "System Documentation",
+                ].map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-4 py-2 rounded-full bg-[#EADCF8] text-[#6E4C8F] font-medium"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Development */}
+            <div>
+              <h4 className="text-2xl font-semibold text-[#6E4C8F] mb-5">
+                💻 Development
+              </h4>
+
+              <div className="flex flex-wrap gap-3">
+                {[
+                  "HTML",
+                  "CSS",
+                  "JavaScript",
+                  "React",
+                  "Flutter",
+                  "Firebase",
+                ].map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-4 py-2 rounded-full bg-[#EADCF8] text-[#6E4C8F] font-medium"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Design */}
+            <div>
+              <h4 className="text-2xl font-semibold text-[#6E4C8F] mb-5">
+                🎨 Design
+              </h4>
+
+              <div className="flex flex-wrap gap-3">
+                {[
+                  "Figma",
+                  "Canva",
+                  "UI/UX Design",
+                  "Wireframing",
+                  "Prototyping",
+                ].map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-4 py-2 rounded-full bg-[#EADCF8] text-[#6E4C8F] font-medium"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Professional */}
+            <div>
+              <h4 className="text-2xl font-semibold text-[#6E4C8F] mb-5">
+                🤝 Professional
+              </h4>
+
+              <div className="flex flex-wrap gap-3">
+                {[
+                  "Communication",
+                  "Organization",
+                  "Attention to Detail",
+                  "Problem Solving",
+                  "Teamwork",
+                  "Adaptability",
+                ].map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-4 py-2 rounded-full bg-[#EADCF8] text-[#6E4C8F] font-medium"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
 
@@ -167,7 +315,7 @@ function About() {
           <div className="text-center">
             <h3 className="text-6xl md:text-7xl font-bold text-[#6E4C8F]">2</h3>
             <p className="mt-3 text-[#5C5470] uppercase tracking-wider text-sm">
-              UI/UX Prototypes
+              UI/UX Designs
             </p>
           </div>
 
@@ -176,7 +324,7 @@ function About() {
               17+
             </h3>
             <p className="mt-3 text-[#5C5470] uppercase tracking-wider text-sm">
-              Design Works
+              Creative Designs
             </p>
           </div>
         </div>

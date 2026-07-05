@@ -45,26 +45,29 @@ function Projects() {
     {
       title: "MarisTrack",
       image: marisTrackLogo,
+      role: "Front-end Developer • UI/UX Designer • QA Tester",
       description:
-        "An attendance monitoring system developed during OJT for Notre Dame of Marbel University's NSTP program. The platform digitizes attendance recording and provides efficient tracking and management of student attendance records.",
-      tech: ["React", "Tailwind CSS", "Vite"],
+        "A web-based attendance monitoring system developed during my internship for Notre Dame of Marbel University's NSTP program. I collaborated with the team to design the user interface in Figma, developed responsive front-end pages using HTML, CSS, JavaScript, and Tailwind CSS, and performed usability testing and documentation to improve the overall user experience.",
+      tech: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Figma"],
       link: "https://maristrack-ojt.vercel.app",
     },
 
     {
       title: "MaristaPay",
       image: maristaPayLogo,
+      role: "Front-end Developer • UI/UX Designer • QA Tester",
       description:
-        "A payment management system developed during OJT for the DSA Office of Notre Dame of Marbel University. The platform simplifies SSG fee collection, payment monitoring, and student payment record management.",
-      tech: ["React", "Tailwind CSS", "Vite"],
+        "A payment management system developed during my internship for the DSA Office of Notre Dame of Marbel University. I collaborated on the UI design in Figma, developed responsive front-end interfaces using HTML, CSS, JavaScript, and Tailwind CSS, and assisted with usability testing and documentation to support efficient payment monitoring.",
+      tech: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Figma"],
       link: "https://maristapay-ojt.vercel.app",
     },
 
     {
       title: "Recipe Finder",
       image: recipeFinderLogo,
+      role: "Academic Project • Flutter Developer",
       description:
-        "A recipe discovery application with recipe browsing and food inspiration features.",
+        "A Flutter application developed as part of a mobile application development course. The project was built by following project requirements and implementing features such as recipe browsing and category-based navigation while strengthening my Flutter and Dart development skills.",
       tech: ["Flutter", "Dart"],
       link: "https://recipefindproject.netlify.app",
     },
@@ -72,8 +75,9 @@ function Projects() {
     {
       title: "TaskFlow",
       image: taskFlowLogo,
+      role: "Academic Project • Front-end Developer • UI/UX Designer",
       description:
-        "A task management application focused on productivity and organization.",
+        "A collaborative final course project designed to help users organize tasks, track progress, and improve productivity. The portfolio version is a redesigned demonstration that showcases my front-end development and UI/UX design skills.",
       tech: ["HTML", "CSS", "JavaScript"],
       link: "https://taskflow-project1.netlify.app",
     },
@@ -94,19 +98,21 @@ function Projects() {
   const figmaProjects = [
     {
       title: "WheelBorrow",
+      role: "UI/UX Designer",
       description:
-        "WheelBorrow is a budget-friendly car rental platform based in Koronadal City, designed to provide an affordable, convenient, and seamless vehicle rental experience.",
+        "A UI/UX prototype designed in Figma for a car rental platform that simplifies vehicle booking through an intuitive interface, user-friendly navigation, and a seamless reservation experience.",
       images: [wheel1, wheel2, wheel3, wheel4],
-      tech: ["Figma", "UI Design", "UX Design"],
+      tech: ["Figma", "Wireframing", "Prototyping", "UI/UX Design"],
       link: "https://www.figma.com/proto/cGiLsyAUHBW5w2RsaRXZlq/WheelBorrows?node-id=60-335&t=BQJd7Yv2eUfPGfbk-1",
     },
 
     {
       title: "TaskMinder",
+      role: "UI/UX Designer",
       description:
-        "TaskMinder is a productivity and scheduling application prototype focused on task management, organization, and time tracking.",
+        "Designed a productivity and task management application prototype in Figma that helps users organize tasks, manage schedules, and improve daily productivity through a clean and intuitive interface.",
       images: [task1, task2, task3, task4],
-      tech: ["Figma", "UI Design", "UX Design"],
+      tech: ["Figma", "Wireframing", "Prototyping", "UI/UX Design"],
       link: "https://www.figma.com/proto/0tbQ4QFKcKNG7XSRNg5pQC/TimeMinder?node-id=0-1&t=b7h0BtoHKLsLIgMk-1",
     },
   ];
@@ -154,14 +160,15 @@ function Projects() {
 
         <div className="text-center mb-20">
           <h2 className="text-5xl md:text-6xl font-bold text-[#2E1F3E] mb-6">
-            Projects & Creative Works
+            Portfolio
           </h2>
           <p className="mt-4 text-[#6E4C8F] text-xl">
-            Development • UI/UX Design • Branding • Publication Materials
+            Software Development • UI/UX • Branding • Graphic Design
           </p>
           <p className="text-[#5C5470] max-w-2xl mx-auto leading-relaxed">
-            A collection of development projects and creative works showcasing
-            both frontend and design experience.
+            A curated portfolio showcasing software development, UI/UX design,
+            branding, and graphic design projects completed through academic
+            work, internship experience, and personal learning.
           </p>
         </div>
 
@@ -170,7 +177,7 @@ function Projects() {
         <div className="mb-24">
           <div className="flex items-center gap-5 mb-10">
             <h3 className="text-3xl md:text-4xl font-bold text-[#2E1F3E] whitespace-nowrap">
-              Development Projects
+              Featured Software Projects
             </h3>
 
             <div className="w-full h-[2px] bg-gradient-to-r from-[#DCC6F2] to-transparent"></div>
@@ -206,9 +213,13 @@ duration-300
                 {/* Content */}
 
                 <div className="p-6">
-                  <h3 className="text-2xl font-semibold text-[#2E1F3E] mb-3">
+                  <h3 className="text-2xl font-semibold text-[#2E1F3E]">
                     {project.title}
                   </h3>
+
+                  <span className="inline-block mb-4 px-3 py-1 rounded-full bg-[#F1E6FA] text-[#6E4C8F] text-xs font-semibold">
+                    {project.role}
+                  </span>
 
                   <p className="text-[#5C5470] text-sm leading-relaxed mb-6">
                     {project.description}
@@ -285,9 +296,13 @@ duration-300
                 </Swiper>
 
                 <div className="p-6">
-                  <h3 className="text-2xl font-semibold text-[#2E1F3E] mb-3">
+                  <h3 className="text-2xl font-semibold text-[#2E1F3E]">
                     {project.title}
                   </h3>
+
+                  <span className="inline-block mb-4 px-3 py-1 rounded-full bg-[#F1E6FA] text-[#6E4C8F] text-xs font-semibold">
+                    {project.role}
+                  </span>
 
                   <p className="text-[#5C5470] text-sm leading-relaxed mb-6">
                     {project.description}
@@ -332,7 +347,7 @@ duration-300
         <div className="mb-24">
           <div className="flex items-center gap-5 mb-10">
             <h3 className="text-3xl md:text-4xl font-bold text-[#2E1F3E] whitespace-nowrap">
-              Logo Collection
+              Brand Identity Design
             </h3>
 
             <div className="w-full h-[2px] bg-gradient-to-r from-[#DCC6F2] to-transparent"></div>
@@ -381,7 +396,7 @@ duration-300
         <div>
           <div className="flex items-center gap-5 mb-10">
             <h3 className="text-3xl md:text-4xl font-bold text-[#2E1F3E] whitespace-nowrap">
-              Publication Materials
+              Marketing & Publication Designs
             </h3>
 
             <div className="w-full h-[2px] bg-gradient-to-r from-[#DCC6F2] to-transparent"></div>

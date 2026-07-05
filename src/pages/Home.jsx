@@ -28,11 +28,13 @@ function Home() {
 
           <TypeAnimation
             sequence={[
-              "UI/UX Enthusiast",
+              "Tech-Savvy Virtual Assistant",
               2000,
-              "Creative Designer",
+              "Quality Assurance Tester",
               2000,
-              "Interactive Web Developer",
+              "UI/UX Designer",
+              2000,
+              "Front-end Developer",
               2000,
             ]}
             wrapper="div"
@@ -42,7 +44,8 @@ function Home() {
           />
 
           <p className="text-[#5C5470] italic text-base md:text-lg leading-relaxed max-w-xl mb-10">
-            Turning ideas into visually engaging and interactive experiences.
+            IT Graduate passionate about administrative support, quality
+            assurance, UI/UX design, and modern web development.
           </p>
 
           {/* Buttons */}

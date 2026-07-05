@@ -5,15 +5,15 @@ function Projects() {
     {
       title: "MarisTrack",
       description:
-        "A web-based attendance monitoring system designed for NSTP student attendance tracking.",
+        "A web-based attendance monitoring system developed during my internship for Notre Dame of Marbel University's NSTP program. I contributed to developing responsive interfaces, conducting usability testing, and improving the overall user experience through quality assurance and documentation.",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
-      tech: ["React", "Tailwind", "Firebase"],
+      tech: ["React", "Tailwind"],
     },
 
     {
       title: "MaristaPay",
       description:
-        "A student payment management dashboard developed for monitoring tuition and payment records.",
+        "A payment management system developed during my internship for the DSA Office of Notre Dame of Marbel University. I assisted in designing user-friendly interfaces, implementing responsive pages, and supporting system testing to streamline payment monitoring and record management.",
       image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
       tech: ["React", "Tailwind", "Vite"],
     },
@@ -21,7 +21,7 @@ function Projects() {
     {
       title: "Recipe App",
       description:
-        "A recipe management application featuring bookmarks, grocery lists, and recipe organization.",
+        "A mobile application developed using Flutter that allows users to browse recipes, discover meal ideas, and explore food categories through an intuitive and user-friendly interface.",
       image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061",
       tech: ["Flutter", "Dart"],
     },
@@ -29,7 +29,7 @@ function Projects() {
     {
       title: "Task Manager",
       description:
-        "A productivity application for managing daily tasks and schedules.",
+        "A web-based task management application designed to help users organize daily activities, monitor progress, and improve personal productivity through a clean and responsive interface.",
       image: "https://images.unsplash.com/photo-1484417894907-623942c8ee29",
       tech: ["JavaScript", "HTML", "CSS"],
     },
