@@ -1,29 +1,115 @@
-Shandy Facinabao Portfolio
+# 🌸 Shandy Facinabao Portfolio
 
-A modern personal portfolio website showcasing my frontend development, UI/UX design, branding, and creative works.
+A modern and responsive personal portfolio built with **React** and **Tailwind CSS** to showcase my software development projects, UI/UX designs, branding, and creative works.
 
-About
+## 🌐 Live Demo
 
-This portfolio highlights my projects, design works, and technical skills as a fresh graduate passionate about creating meaningful digital experiences through technology and design.
+🔗 https://shndyln.vercel.app
 
-Live Website
+---
 
-https://shndyln.vercel.app
+## 📖 Overview
 
-Installation
+This portfolio represents my journey as an Information Technology graduate with experience in front-end development, quality assurance, UI/UX design, and creative design.
 
-Clone the repository:
+It features:
 
-git clone https://github.com/FacinabaoShandyLiane/shndy.ln-portfolio
+- 💻 Software Development Projects
+- 🎨 UI/UX Design Projects
+- 🖌️ Brand Identity Designs
+- 📢 Marketing & Publication Materials
+- 📬 Contact Form with Formspree Integration
 
-Install dependencies:
+---
 
+## ✨ Features
+
+- Responsive design for desktop, tablet, and mobile
+- Modern glassmorphism-inspired interface
+- Interactive project showcase
+- UI/UX project gallery with image carousel
+- Creative works gallery
+- Contact form integration using Formspree
+- Smooth animations and hover effects
+
+---
+
+## 🛠️ Built With
+
+### Front-end
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+
+### Libraries
+
+- React Router
+- Swiper.js
+- React Icons
+
+### Deployment
+
+- Vercel
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/FacinabaoShandyLiane/shndy.ln-portfolio.git
+```
+
+Install dependencies
+
+```bash
 npm install
+```
 
-Run locally:
+Run the development server
 
+```bash
 npm run dev
+```
 
-Build for production:
+Build for production
 
+```bash
 npm run build
+```
+
+---
+
+## 📁 Project Structure
+
+```text
+src/
+ ├── assets/
+ ├── components/
+ ├── pages/
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+## 📫 Contact
+
+📧 Email: **slfacinabao@gmail.com**
+
+🌐 Portfolio: https://shndyln.vercel.app
+
+💻 GitHub: https://github.com/FacinabaoShandyLiane
+
+---
+
+## 👩‍💻 Author
+
+**Shandy Liane Facinabao**
+
+Information Technology Graduate
+
+Front-end Developer • QA Tester • UI/UX Designer
